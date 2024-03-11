@@ -1,21 +1,32 @@
 /*Mudei a cor do header e arredondei as bordas */
 header{
     background-color: black;
-    border-radius: 100px;
+    border-radius: 50px;
+    position: relative;
+    height: 200px;
     }
+
+header h1{
+    padding-top : 60px;
+    font-size: 80px;
+    margin-top: 10px;
+}    
 
 /*mudei o tamanho da imagen, arrendondei a imagem (com border-radius) centralizei a imagen com (margin-left e margin-top)*/
 .logotipo{
+    position: absolute;
   border-radius: 100px;
   width: 150px;
   margin-left: 50px;
-  margin-top: -50px;
+  top: 15%;
 
     }
 
 /*mudei a cor do main*/
 main{
     background-color: black;
+    padding: 30px;
+    margin: 10px;
 } 
 
 /*mudei a fonte do projeto (font-family) e mudei a cor do body)*/
@@ -29,6 +40,8 @@ h1{
     text-align: center;
     color: white;
     font-size: 30px;
+    top: 50px;
+    
 }
 
 /*mudei a cor com (color) e mudei o tamnho da fonte com (font-size)*/
